@@ -1,0 +1,415 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>lastJS</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="node_modules/swiper/swiper-bundle.min.css">
+</head>
+<style>
+    .select {
+        border: 2px solid #00a2e8;
+    }
+</style>
+<body>
+<!--wrapper-->
+<!--menu-->
+<section id="home" class="menu">
+    <!--top menu-->
+    <section class="topMenu">
+        <section>
+            <div>
+                <img src="Images/.png" alt="icone">
+            </div>
+            <div>
+                <span>123-123456</span>
+            </div>
+            <div>
+                <img src="Images/email.png" alt="icone">
+            </div>
+            <div>
+                <span>info@info.com</span>
+            </div>
+        </section>
+        <section>
+            <nav>
+                <ul>
+                    <li><a href="#">My Account</a></li>
+                    <li><a href="#">Wishlist</a></li>
+                    <li><a href="#">Cart</a></li>
+                    <li><a href="#">Checkout</a></li>
+                    <li><a href="#">Login/Register</a></li>
+                </ul>
+            </nav>
+        </section>
+    </section>
+    <section class="openMenu">
+        <i class="open fas fa-bars"></i>
+    </section>
+    <!--end top menu-->
+    <!--make menu Bottom-->
+    <section class="menuBottom">
+        <section>
+            <img src="Images/HYAPE.png" alt="iconemain">
+        </section>
+        <section>
+            <nav>
+                <ul>
+                    <li><a href="#" data-id="#home">Home</a></li>
+                    <li><a href="#" data-id="#aboutUs" onclick="About()">About Us</a></li>
+                    <li><a href="#">Page</a></li>
+                    <li><a href="#" data-id="#collection" onclick="Collection()">Shop</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#" data-id="#message" onclick="Message()">ContactUs</a></li>
+                </ul>
+            </nav>
+        </section>
+        <section>
+            <span>
+                <img src="Images/icons8-search.gif" alt="search">
+            </span>
+            <span>Cart-$0</span>
+            <span>
+                <img src="Images/icons8-lock-64.png" alt="lock">
+            </span>
+        </section>
+    </section>
+    <!--end make menu Bottom-->
+</section>
+<!--end menu-->
+<!--make slider-->
+<section class="slider">
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="Images/OCIFNN0.png" alt="shop">
+                <section class="cover">
+                    <h1>DRESSES ARE GOOD</h1>
+                    <h1>BUT OUR DRESSES ARE BEST</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aspernatur commodi cumque
+                        dicta dignissimos dolor dolorum exercitationem fugit impedit minus odio odit placeat, quae ut
+                        velit veniam vero? Ab, recusandae!
+                    </p>
+                </section>
+            </div>
+            <div class="swiper-slide">
+                <img src="Images/online_shopping_addiction-scaled.jpeg" alt="shop online">
+            </div>
+            <div class="swiper-slide">
+                <img src="Images/gettyimages-1164137032.jpg" alt="shopping">
+            </div>
+            <div class="swiper-slide">
+                <img src="Images/iStock-868776554.jpg" alt="online shopping">
+            </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+</section>
+<!--end make slider-->
+<!--make about us-->
+<section id="aboutUs" class="aboutUs">
+    <span>ABOUT <span id="US">US</span></span>
+    <section class="aboutItem">
+        <section>
+            <img src="Images/setting.png" alt="settingIcone">
+            <h2>SETTING</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto consequatur distinctio dolore,
+                ducimus excepturi expedita in quis recusandae repellendus repudiandae suscipit tenetur? A alias culpa ex
+                iste placeat provident voluptate!
+                Lorem ipsum dolor sit amet
+
+            </p>
+        </section>
+        <section id="money">
+            <img src="Images/moneyback.png" alt="moneyIcone">
+            <h2>MONEY BACK</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto consequatur distinctio dolore,
+                ducimus excepturi expedita in quis recusandae repellendus repudiandae suscipit tenetur? A alias culpa ex
+                iste placeat provident voluptate!
+                Lorem ipsum dolor sit amet
+
+            </p>
+        </section>
+        <section>
+            <img src="Images/world.png" alt="worldIcone">
+            <h2>WORLDWIDE SHIPPING</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto consequatur distinctio dolore,
+                ducimus excepturi expedita in quis recusandae repellendus repudiandae suscipit tenetur? A alias culpa ex
+                iste placeat provident voluptate!
+                Lorem ipsum dolor sit amet
+
+            </p>
+        </section>
+        <section>
+            <img src="Images/worldwide.png" alt="worldIcone">
+            <h2>WORLDWIDE SHIPPING</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto consequatur distinctio dolore,
+                ducimus excepturi expedita in quis recusandae repellendus repudiandae suscipit tenetur? A alias culpa ex
+                iste placeat provident voluptate!
+                Lorem ipsum dolor sit amet
+
+            </p>
+        </section>
+    </section>
+</section>
+<!--end make about us-->
+<!--make collection-->
+<section id="collection" class="collection">
+    <section class="coverCollection">
+        <h1>NEW COLLECTION</h1>
+        <section class="collectionItem">
+            <section>
+                <div class="collection-1">BLUE TSHIRT</div>
+                <div class="price-1">$26</div>
+            </section>
+            <section id="collection-2">
+                <div class="collcetionIcone">
+                    <span>
+                        <img src="Images/heart.png" alt="heart">
+                        <img id="fleshIcone" src="Images/flesh.png" alt="icone">
+                        <img src="Images/time.png" alt="time">
+                    </span>
+                    <span id="cart">
+                        <img id="cartIcone" src="Images/cart.png" alt="cart">
+                        <span>ADD TO CART</span>
+                    </span>
+                </div>
+                <section id="color">
+                    <div class="collection-1">BLACK TSHIRT</div>
+                    <div class="price-1">$31</div>
+                </section>
+            </section>
+            <section>
+                <div class="collection-1">YELLOW TSHIRT</div>
+                <div class="price-1">$21</div>
+            </section>
+            <section>
+                <div class="collection-1">COOL LINGERIE</div>
+                <div class="price-1">$56</div>
+            </section>
+        </section>
+    </section>
+</section>
+<!--end make collection-->
+<!--make sale-->
+<section class="sale">
+    <h1>SALE UPTO 40% OFF</h1>
+    <span>DON'T FORGET TO BUY</span>
+</section>
+<!--end make sale-->
+<!--make products-->
+<section class="products">
+    <section class="coverProducts">
+        <h1>OUR PRODUCTS</h1>
+        <section class="productsItem">
+            <section>
+                <div class="sale">SALE</div>
+                <div class="product-1">T-SHIRT</div>
+                <div class="price">$26</div>
+            </section>
+            <section id="products-2">
+                <section class="productsIcone">
+                    <span>
+                        <img src="Images/heart.png" alt="heart">
+                        <img id="flesh" src="Images/flesh.png" alt="icone">
+                        <img src="Images/time.png" alt="time">
+                    </span>
+                    <span id="carti">
+                        <img id="iconeCart" src="Images/cart.png" alt="cart">
+                        <span>ADD TO CART</span>
+                    </span>
+                </section>
+                <section id="colorproducts">
+                    <div class="product-1">JEANS</div>
+                    <div class="price">$31</div>
+                </section>
+            </section>
+            <section>
+                <div class="new">NEW</div>
+                <div class="product-1">SHOES</div>
+                <div class="price">$21</div>
+            </section>
+        </section>
+    </section>
+</section>
+<!--end make products-->
+<!--make comments-->
+<section class="comments">
+    <h1>CUSTOMER'S REVIEW</h1>
+    <section class="commentItem">
+        <section>
+            <div class="image"></div>
+            <div class="comments">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae debitis
+                dignissimos eum ex explicabo, ipsum iure laboriosam laborum minus, modi nobis non nulla porro sint
+                tempora voluptas, voluptates voluptatibus?
+            </div>
+            <h6>-JOHN-</h6>
+            <h5>Khi-Pak</h5>
+            <span>
+                <img src="Images/Ellipse%2011.png" alt="circleIcone">
+                <img src="Images/Ellipse%2011.png" alt="circleIcone">
+                <img src="Images/Ellipse%2011.png" alt="circleIcone">
+                <img src="Images/Ellipse%2011.png" alt="circleIcone">
+                <img src="Images/Ellipse%2011%20copy.png" alt="circleIcone">
+            </span>
+        </section>
+
+        <section>
+            <div class="image"></div>
+            <div class="comments">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae debitis
+                dignissimos eum ex explicabo, ipsum iure laboriosam laborum minus, modi nobis non nulla porro sint
+                tempora voluptas, voluptates voluptatibus?
+            </div>
+            <h6>-JOHN-</h6>
+            <h5>Khi-Pak</h5>
+            <span>
+                <img src="Images/Ellipse%2011.png" alt="circleIcone">
+                <img src="Images/Ellipse%2011.png" alt="circleIcone">
+                <img src="Images/Ellipse%2011.png" alt="circleIcone">
+                <img src="Images/Ellipse%2011.png" alt="circleIcone">
+                <img src="Images/Ellipse%2011%20copy.png" alt="circleIcone">
+            </span>
+        </section>
+
+        <section>
+            <div class="image"></div>
+            <div class="comments">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae debitis
+                dignissimos eum ex explicabo, ipsum iure laboriosam laborum minus, modi nobis non nulla porro sint
+                tempora voluptas, voluptates voluptatibus?
+            </div>
+            <h6>-JOHN-</h6>
+            <h5>Khi-Pak</h5>
+            <span>
+                <img src="Images/Ellipse%2011.png" alt="circleIcone">
+                <img src="Images/Ellipse%2011.png" alt="circleIcone">
+                <img src="Images/Ellipse%2011.png" alt="circleIcone">
+                <img src="Images/Ellipse%2011.png" alt="circleIcone">
+                <img src="Images/Ellipse%2011%20copy.png" alt="circleIcone">
+            </span>
+        </section>
+    </section>
+</section>
+<!--end make comments-->
+<!--make order form-->
+<section class="order">
+    <section class="orderCover" style="width: 100%;">
+        <h1>PLACE YOUR ORDER NOW</h1>
+        <form>
+            <input type="text" name="email" placeholder="Enter your Email here">
+            <input type="text" name="order" placeholder="Your Order Here">
+            <button>ORDER NOW</button>
+        </form>
+    </section>
+</section>
+<!--end make order form-->
+<!--make slogan-->
+<section class="slogan">
+    <section class="sloganCover">
+        <h1>IMPROVE YOUR DRESSING</h1>
+        <h3>REAL-TIME FEEDBACK.REAL-TIME RESULTS.</h3>
+    </section>
+</section>
+<!--end make slogan-->
+<!--make message form-->
+<section id="message" class="message">
+    <section class="logo">
+        <img id="logoMain" src="Images/HYAPE.png" alt="logo">
+        <h3>Lorem ipsum dolor sit amet, consectetur</h3>
+        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci autem cupiditate deserunt doloremque
+            eaque enim labore libero.
+        </div>
+        <h4>Click and follow us</h4>
+        <span class="icons">
+            <img id="img-1" src="Images/Facebook%20Logo.png" alt="FaceBook">
+            <img src="Images/p.png" alt="pinterest">
+            <img src="Images/Twitter%20Logo.png" alt="Twitter">
+            <img src="Images/Vimeo%20Icon.png" alt="vimeo">
+            <img src="Images/icon.png" alt="instagram">
+            <img src="Images/Google%20+.png" alt="google+">
+        </span>
+    </section>
+    <section class="messageForm">
+        <form class="name">
+            <input type="text" name="name" placeholder="Your Name">
+            <input type="text" name="email" placeholder="Your Email">
+        </form>
+        <form class="comments">
+            <textarea name="comments" placeholder="Your Message...."></textarea>
+            <button>Send</button>
+        </form>
+    </section>
+</section>
+<!--end make message form-->
+<!--make footer-->
+<footer>
+    <div>All Rights Reserved</div>
+</footer>
+<!--end make footer-->
+<!--scroll-->
+<section class="scroll">
+    <i class="fas fa-arrow-up"></i>
+</section>
+<!--end scroll-->
+<!--end wrapper-->
+
+<!--js-->
+<script type="module" src="App.js"></script>
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/swiper/swiper-bundle.min.js"></script>
+<script>
+
+    var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+    });
+
+    let aboutUs = $('section.menuBottom nav>ul>li:nth-of-type(2)>a').attr('data-id');
+    let offsetAbout = $(`section${aboutUs}`).offset().top + 150;
+
+    function About() {
+        $('html').animate({
+            scrollTop: offsetAbout,
+        }, 1000, "linear")
+    }
+
+    let collcetion = $('section.menuBottom nav>ul>li:nth-of-type(4)>a').attr('data-id');
+    let offsetCollection = $(`section${collcetion}`).offset().top + 150;
+
+    function Collection() {
+        $('html').animate({
+            scrollTop: offsetCollection,
+        }, 1000, "linear")
+    }
+
+    let message = $('section.menuBottom nav>ul>li:nth-of-type(6)>a').attr('data-id');
+    let offsetMessage = $(`section${message}`).offset().top + 150;
+
+    function Message() {
+        $('html').animate({
+            scrollTop: offsetMessage,
+        }, 1000, "linear")
+    }
+
+</script>
+</body>
+</html>
